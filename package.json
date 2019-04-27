@@ -1,0 +1,12 @@
+{
+  "name": "movie_ql",
+  "version": "1.0.0",
+  "description": "MOVIE API with graphQL",
+  "main": "index.js",
+  "repository": "https://github.com/dowookims/movie_ql.git",
+  "author": "dowookims",
+  "license": "MIT",
+  "dependencies": {
+    "graphql-yoga": "^1.17.4"
+  }
+}
