@@ -1,9 +1,14 @@
-type dow {
+type Movie {
+  id: Int!
   name: String!
-  age: Int!
-  gender: String!
+  score: Int!
 }
 
 type Query {
-  person: dow!
+  movies: [Movie]!
+  movie(id: Int!): Movie
+}
+
+type Mutation {
+  addMovie(name: String!, score: Int!): Movie!
 }
