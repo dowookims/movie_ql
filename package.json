@@ -9,7 +9,7 @@
   "dependencies": {
     "axios": "^0.18.0",
     "graphql-yoga": "^1.17.4",
-    "node-fetch": "^2.4.1"
+    "node-fetch": "^2.6.1"
   },
   "scripts": {
     "start": "nodemon --exec babel-node index.js"
